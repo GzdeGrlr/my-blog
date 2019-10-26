@@ -13,6 +13,26 @@
         {% endfor %}
     <div>
     <h1><a href="/">Django Girls Blog</a></h1>
+    <p>Hayata İlk Bakış, İlk Başlangıç…
+
+Çocuk demek gelecek demek
+
+Çocuk demek umut demek
+
+Çocuk demek özgürlük demek
+
+Çocuk demek hayal demek….
+
+ 
+
+Çocuk değişirse, dünya değişecek. Çocuk gülerse dünya gülecek.
+
+İşte biz çocuklardan aldığımız güçle, ailelerle el ele, öğretmenlerle kol kola yola çıktık.
+
+Önce hayal ettik sonra tıpkı bir çocuk gibi hayallerimize inandık ve azimle yola koyulduk.
+
+Sincap Kitap ekibi olarak Okul öncesi çocuklarımız için alanında uzman bir ekiple özgün, güvenilir ve kaliteli eserlerle kitap ve oyunu birleştirerek, “oyna ve öğren” sloganıyla ikinci yılımızı geride bıraktık. Eğlenerek öğrenen ve hayal dünyası geniş çocuklarımız için erken öğrenmeyi hızlandıran yeni projelerimizle yola devam ediyoruz.</p>
+
 </div>
 
 {% for post in posts %}
@@ -20,6 +40,7 @@
         <p>published: {{ post.published_date }}</p>
         <h1><a href="">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
+
     </div>
 {% endfor %}
 
